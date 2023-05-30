@@ -1,0 +1,39 @@
+#login-page {
+   margin-top: 12%;
+   background-color: aliceblue;
+   width: 400px;
+}
+.FondoL1{
+    background-image: url(https://images4.alphacoders.com/706/706365.png);
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.card {
+   background-color: aliceblue;
+   position: absolute;
+     left: 50%;
+     top: 50%;
+     -moz-transform: translate(-50%, -50%);
+     -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     -o-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+}
+form.login-form{
+    background-color: aliceblue;
+}
+div{
+    background-color: aliceblue;
+}
+i{
+    background-color: aliceblue;
+}
+label{
+    color: black;
+    background-color: aliceblue;
+}
+p{
+    background-color: aliceblue;
+}

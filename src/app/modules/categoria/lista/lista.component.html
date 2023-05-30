@@ -1,0 +1,41 @@
+<body class="FondoL2">
+<div class="Mboton">
+    <a routerLink="/categoria/categoria-crear" class="waves-effect waves-light btn">Crear Categoria</a>
+</div>
+
+<br />
+<br />
+<table class="highlight" class="centered" >
+    <thead>
+        <tr>
+            <td>
+                ID
+            </td>
+            <td>
+                NOMBRE
+            </td>
+            <td>
+                ELIMINAR
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let c of categoria | paginate: { itemsPerPage: 5, currentPage: pagina }">
+            <td>
+                {{c.id}}
+            </td>
+            <td>
+                {{c.nombre}}
+            </td>
+            <td>
+                <div>
+                  <button (click)='EliminarCategoria(c)' class="btn red waves-effect waves-light" type="button">Eliminar</button>  
+                </div>
+                
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+<pagination-controls (pageChange)="pagina = $event"></pagination-controls>
+</body>

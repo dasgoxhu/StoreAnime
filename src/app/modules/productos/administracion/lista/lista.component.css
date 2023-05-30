@@ -1,0 +1,17 @@
+.FondoL2{
+    background-image: url(https://fondosmil.com/fondo/32052.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+  }
+
+.Mboton{
+   margin-top: 3%;
+   margin-left: 15%;
+   height: 10%;
+}
+td{
+    color: rgb(255, 0, 0);
+}
+
+  

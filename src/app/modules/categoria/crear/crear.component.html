@@ -1,0 +1,18 @@
+<body class="FondoL2">
+  <div class="row">
+      <form [formGroup]="fgValidador" class="casillas">
+        <div class="casillas">
+          <div class="casillas">
+            <label for="Ncategoria">Nombre de la Categoria</label>
+            <input id="Ncategoria" formControlName="nombre" type="text" class="validate" required>
+            </div>
+          </div>
+          <div class="casillas">  
+            <div class="casillas">
+              <button (click)="GuardarCategoria()"  class="btn btn-large btn-register waves-effect waves-light" type="submit" name="action">Guardar Categoria</button>
+            </div>
+          </div>
+      </form>
+  </div> 
+</body>
+  

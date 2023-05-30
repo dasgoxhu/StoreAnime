@@ -1,0 +1,34 @@
+.FondoL2{
+    background-image: url(https://images6.alphacoders.com/118/1183948.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+  }
+  
+  div.row{
+    margin-top: 11%;
+    width: 500px;
+    height: 500px;
+  }
+  
+  form.casillas{
+    background-color: aliceblue;
+    width: 500px;
+    height: 500px;
+  }
+  
+  label{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue; 
+    color: black;
+  }
+  .casillas{
+    width: 95%;
+    height: 15%;
+    margin-left: 1%;
+    margin-bottom: 10%;
+    background-color: aliceblue; 
+  }
+  
+  
